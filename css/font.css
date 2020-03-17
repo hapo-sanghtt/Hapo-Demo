@@ -1,14 +1,14 @@
 @font-face {
   src: url(../font/Roboto-Italic.ttf);
-  font-family: Roboto-Italic;
+  font-family: roboto-italic;
 }
 
 @font-face {
   src: url(../font/Roboto-Light.ttf);
-  font-family: Roboto-Light;
+  font-family: roboto-light;
 }
 
 @font-face {
-    src: url(../font/Roboto-Regular.ttf);
-    font-family: Roboto-Regular;
+  src: url(../font/Roboto-Regular.ttf);
+  font-family: roboto-regular;
 }

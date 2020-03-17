@@ -1,39 +1,36 @@
 body {
-  background: white;
-  border: 1pt black;
+  background: #ffffff;
   width : 1920px;
-  border: 1px solid rgb(199, 196, 196) ;
-  margin: auto;
+  font-family: roboto-regular;
+  border: 1px solid #C7C4C4;
 }
 
 .lpc-banner {
   background: url(../image/banner.png) no-repeat;
-  width: 1920px;
+  width: 100%;
   height: 873px;
-  border: 1px solid  rgb(199, 196, 196);
+  border: 1px solid  #C7C4C4;
 }
 
 .lpc-banner-button {
   font-size: 12pt;
-  font-family: Roboto-Regular;
-  width: 100%;
   padding-top: 41px;
   padding-left: 1344px;
   display: flex;
 }
 
 .lpc-about-us {
-  color: black ;
+  color: #000000 ;
   font-size: 12pt;
   padding: 10px 20px;
   float: left;
 }
 
 .lpc-sign-in {
-  color:  rgb(139, 195, 74);
+  color:  #8BC34A;
   border-radius: 100px;
   padding: 10px 27px;
-  border:  2px solid rgb(139, 195, 74);
+  border:  2px solid #8BC34A;
   float: left;
 }
 
@@ -67,7 +64,7 @@ body {
 }
 
 .better {
-  font-family: Roboto-Light;
+  font-style: roboto-light;
   padding-top: 19px;
   font-size: 36px;
 }
@@ -93,7 +90,7 @@ body {
 }
 
 .banner-slogan {
-  font-family: Roboto-Italic;
+  font-style: roboto-italic;
   padding-top: 53px;
   font-size: 14pt;
   padding-left: 676px;
@@ -101,26 +98,25 @@ body {
 
 .banner-start-now {
   padding-top: 34px;
-  padding-left: 836px;
+  padding-left: 863px;
 }
 
 .start-now {
-  font-family: Roboto-Regular;
-  padding: 13px 30px;
+  padding: 13px 40px;
   width: 140px;
   height: 20px;
-  background: linear-gradient(to right,rgb(66,147,33), rgb(180,236,81));   
-  color: white;
+  background: linear-gradient(to right,#429321, #B4EC51);   
+  color: #ffffff;
   font-size: 16px;
   border-radius: 40px;
-  box-shadow: 0px 2px 4px 0px black;
+  box-shadow: 0px 2px 4px 0px #000000;
 }
 
 .lpc-today-i-learnt {
   width: 100%;
   height: 571px;
-  background-color: white;
-  border: 1px solid rgb(199, 196, 196);
+  background-color: #ffffff;
+  border: 1px solid #C7C4C4;
   display: flex;
 }
 
@@ -144,6 +140,7 @@ body {
 
 .lpc-til-doc .ti-bookmark-alt{
   margin-top: -4px;
+  margin-left: 1px;
 }
 
 .ti-bookmark-alt {
@@ -153,8 +150,8 @@ body {
 }
 
 .name-ti-bookmark-alt {
-  font-family: Roboto-Light;
-  color: rgb(68, 68, 68);
+  font-style: roboto-light;
+  color: #444444;
   width: 308px;
   height: 63px;
   font-size: 48px;
@@ -168,13 +165,12 @@ body {
 }
 
 .til-slogan {
-  font-family: Roboto-Italic;
+  font-style: roboto-italic;
   font-size: 14px;
   padding-top: 28px;
 }
 
 .til-doc {
-  font-family: Roboto-Regular;
   padding-top: 28px;
   width: 555px;
   height: 168px;
@@ -188,15 +184,14 @@ body {
 }
 
 .startnow {
-  font-family: Roboto-Regular;
-  padding: 13px 30px;
-  width: 140px;
-  height: 20px;
-  background: linear-gradient(to right,rgb(66,147,33), rgb(180,236,81));   
-  color: white;
+  padding: 13px 40px;
+  width: 195px;
+  height: 50px;
+  background: linear-gradient(to right,#429321, #B4EC51);   
+  color: #ffffff;
   font-size: 16px;
   border-radius: 40px;
-  box-shadow: 0px 2px 4px 0px black;
+  box-shadow: 0px 2px 4px 0px #000000;
 }
 
 .lpc-today-i-learnt::after {
@@ -208,7 +203,7 @@ body {
 .lpc-daily-report {
   width: 100%;
   height: 571px;
-  border: 1px solid rgb(199, 196, 196);
+  border: 1px solid #C7C4C4;
   display: flex;
 }
 
@@ -227,16 +222,16 @@ body {
 .ti-write {
   font-size: 36px;
   padding-top: 14px;
-  padding-left: 20px;
   float: left;
 }
 
 .daily-report-doc .ti-write {
   margin-top: -4px;
+  margin-left: 1px;
 }
 
 .name-ti-write {
-  font-family: Roboto-Light;
+  font-style: roboto-light;
   width: 308px;
   height: 63px;
   font-size: 48px;
@@ -260,6 +255,7 @@ body {
 
 .daily-report-doc.ti-user {
   margin-top: -4px;
+  margin-left: 1px;
 }
 
 .ti-user {
@@ -269,7 +265,7 @@ body {
 }
 
 .name-ti-user {
-  font-family: Roboto-Light;
+  font-style: roboto-light;
   width: 308px;
   height: 63px;
   font-size: 48px;
@@ -284,18 +280,17 @@ body {
   font-size: 13px;
 }
 
-.doc-1 {
+.members-doc-one {
   display: flex;
 }
 
 .ti-check-box {
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
   font-size: 18px;
   float: left;
 }
 
 .doc-ti-check-box {
-  font-family: Roboto-Regular;
   width: 519px;
   height: 50px;
   font-size: 13px;
@@ -303,72 +298,69 @@ body {
   float: left;
 }
 
-.doc-1::after {
+.members-doc-one::after {
   content: ' ';
   clear: both;
   display: block;
 }
 
-.doc-2 {
+.members-doc-two {
   padding-top: 17px;
   display: flex;
 }
 
-.doc-2::after {
+.members-doc-two::after {
   content: ' ';
   clear: both;
   display: block;
 }
 
-.doc-3 {
+.members-doc-three {
   padding-top: 17px;
   display: flex;
 }
 
-.doc-3::after {
+.members-doc-three::after {
   content: ' ';
   clear: both;
   display: block;
 }
 
-.rectangle3 {
-  background: linear-gradient(to right,rgb(66,147,33), rgb(180,236,81));
+.lpc-rectangle3 {
+  background: linear-gradient(to right,#429321, #B4EC51);
   height: 322px;
   display: flex;
 }
 
-.oval1 {
+.lpc-oval-dr {
   padding-top: 70px;
   padding-left: 392px;
   float: left;
 }
 
-.oval-1 {
+.oval-ti-write {
   width: 107px;
   height: 107px; 
   border-radius: 100%;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #ffffff;
+  color: #ffffff;
   float: left;
-}
-
-.oval-1 .ti-write {
-  margin-left: 11px;
 }
 
 .ti-write {
   font-size: 36px;
   margin-top: 15px;
+  margin-left: 34px;
 }
 
 .oval-small {
   width: 40px;
   height: 40px; 
   border-radius: 100%;
-  background-color: rgb(139, 195, 74);
-  border: 2px solid white;
+  background-color: #8BC34A;
+  border: 2px solid #ffffff;
   align-self: center;
-  color: white;
+  color: #ffffff;
   margin-left: 32px;
   margin-top: 85px;
 }
@@ -380,11 +372,10 @@ body {
 }
 
 .inform-oval {
-  font-family: Roboto-Regular;
   padding-left: 25px;
 }
 
-.oval2 {
+.lpc-oval-wt {
   padding-top: 70px;
   padding-left: 150px;
   float: left;
@@ -396,7 +387,7 @@ body {
   margin-left: 34px;
 }
 
-.oval3 {
+.lpc-oval-mm {
   padding-top: 70px;
   padding-left: 150px;
   float: left;
@@ -406,10 +397,10 @@ body {
   width: 40px;
   height: 40px; 
   border-radius: 100%;
-  background-color: rgb(139, 195, 74);
-  border: 2px solid white;
+  background-color: #8BC34A;
+  border: 2px solid #ffffff;
   align-self: center;
-  color: white;
+  color: #ffffff;
   margin-left: 32px;
   margin-top: 20px;
 }
@@ -420,7 +411,7 @@ body {
   margin-left: 34px;
 }
 
-.oval4 {
+.lpc-oval-mc {
   padding-top: 70px;
   padding-left: 150px;
   float: left;
@@ -432,7 +423,7 @@ body {
   margin-left: 34px;
 }
 
-.oval5 {
+.lpc-oval-mp {
   padding-top: 70px;
   padding-left: 150px;
   float: left;
@@ -448,8 +439,8 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  border: 2px solid rgb(216, 216, 216);
-  background-color: white;
+  border: 2px solid #D8D8D8;
+  background-color: #ffffff;
   float: left;
 }
 
@@ -457,8 +448,8 @@ body {
   width: 10px;
   height: 10px; 
   border-radius: 100%;
-  border: 2px solid rgb(216, 216, 216);
-  color: white;
+  border: 2px solid #D8D8D8;
+  color: #ffffff;
   margin-left: 23px;
   float: left;
 }
@@ -467,8 +458,8 @@ body {
   width: 10px;
   height: 10px; 
   border-radius: 100%;
-  border: 2px solid rgb(216, 216, 216);
-  color: white;
+  border: 2px solid #D8D8D8;
+  color: #ffffff;
   margin-left: 23px;
   float: left;
 }
@@ -487,8 +478,9 @@ body {
   margin-left: 34px;
 }
 
-.deilay-report-icon .ti-face-smile {
+.lpc-til-doc .ti-face-smile {
   margin-top: -4px;
+  margin-left: 1px;
 }
 
 .ti-face-smile {
@@ -498,7 +490,7 @@ body {
 }
 
 .name-ti-face-smile {
-  font-family: Roboto-Light;
+  font-style: roboto-light;
   width: 308px;
   height: 63px;
   font-size: 48px;
@@ -506,19 +498,19 @@ body {
 }
 
 .ti-unlock {
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
   font-size: 18px;
   float: left;
 }
 
 .ti-cup {
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
   font-size: 18px;
   float: left;
 }
 
 .ti-stats-up {
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
   font-size: 18px;
   float: left;
 }
@@ -527,11 +519,11 @@ body {
   background: url(../image/rectangle3.png);
   padding-top: 50px;
   height: 544px;
-  border: 1px solid rgb(199, 196, 196);
+  border: 1px solid #C7C4C4;
 }
 
 .our-customers {
-  font-family: Roboto-Light;
+  font-style: roboto-light;
   color: #ffffff;
   font-size: 48px;
   padding-left: 816px;
@@ -539,11 +531,12 @@ body {
 
 .avatar-img {
   padding-top: 48px;
+  padding-left: 318px;
   display: flex;
 }
 
-.avatar-1 {
-  padding-left: 390px;
+.avatar {
+  padding-left: 72px;
   float: left;
 }
 
@@ -553,45 +546,9 @@ body {
 }
 
 .duongnt {
-  color: white;
-  font-family: Roboto-Regular;
+  color: #ffffff;
   font-size: 13px;
   padding-left: 16px;
-}
-
-.avatar-2 {
-  padding-left: 72px;
-  float: left;
-}
-
-.avatar-3 {
-  padding-left: 72px;
-  float: left;
-}
-
-.avatar-4 {
-  padding-left: 72px;
-  float: left;
-}
-
-.avatar-5 {
-  padding-left: 72px;
-  float: left;
-}
-
-.avatar-6 {
-  padding-left: 72px;
-  float: left;
-}
-
-.avatar-7 {
-  padding-left: 72px;
-  float: left;
-}
-
-.avatar-8 {
-  padding-left: 72px;
-  float: left;
 }
 
 .ti-quote-left {
@@ -600,9 +557,9 @@ body {
   font-size: 72px;
 }
 
-.doc {
+.our-customers-doc {
   color: #ffffff;
-  font-family: Roboto-Light;
+  font-style: roboto-light;
   font-size: 18px;
   padding-left: 586px;
   width: 750px;
@@ -617,6 +574,7 @@ body {
 
 .deilay-report-icon .ti-calendar {
   margin-top: -4px;
+  margin-left: 1px;
 }
 
 .ti-calendar {
@@ -626,7 +584,7 @@ body {
 }
 
 .name-ti-calendar {
-  font-family: Roboto-Light;
+  font-style: roboto-light;
   width: 308px;
   height: 63px;
   font-size: 48px;
@@ -638,8 +596,8 @@ body {
   height: 179px;
   padding-top: 45px;
   padding-left: 389px;
-  background-color: rgb(57, 71, 78);
-  border: 1px solid rgb(199, 196, 196);
+  background-color: #39474E;
+  border: 1px solid #C7C4C4;
   display: flex;
 }
 
@@ -652,7 +610,7 @@ body {
 }
 
 .hapo-inform {
-  color: rgb(208, 216, 220);
+  color: #D0D8DC;
   font-size: 10px;
   padding-top: 36px;
 }
@@ -664,35 +622,35 @@ body {
 
 .get-in-touch {
   font-size: 13px;
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
 }
 
 .contact {
-  color: rgb(208, 216, 220);
+  color: #D0D8DC;
   font-size: 10px;
   padding-top: 14px;
 }
 
 .ti-facebook {
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
   padding-top: 63px;
   padding-left: 119px;
 }
 
 .ti-twitter {
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
   padding-top: 63px;
   padding-left: 38px;
 }
 
 .ti-youtube {
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
   padding-top: 63px;
   padding-left: 38px;
 }
 
 .ti-linkedin {
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
   padding-top: 63px;
   padding-left: 38px;
 }
