@@ -23,7 +23,6 @@ body {
   width: 80px;
   height: 15px;
   padding: 10px 15px;
-  float: left;
 }
 
 .lpc-sign-in {
@@ -31,7 +30,6 @@ body {
   border-radius: 100px;
   padding: 10px 20px;
   border: 2px solid #8BC34A;
-  float: left;
 }
 
 .lpc-banner-container {
@@ -70,7 +68,6 @@ body {
 
 .icon-ti-alarm-clock {
   padding-left: 18%;
-  float: left;
 }
 
 .ti-alarm-clock {
@@ -80,7 +77,6 @@ body {
 
 .icon-ti-thumb-up {
   padding-left: 18%;
-  float: left;
 }
 
 .ti-thumb-up {
@@ -121,7 +117,6 @@ body {
 
 .lpc-til-img {
   padding: 10px;
-  float: left;
 }
 
 .lpc-til-img img {
@@ -133,7 +128,6 @@ body {
   width: 50%;
   height: 300px;
   padding: 10px;
-  float: left;
 }
 
 .til-icon {
@@ -143,7 +137,6 @@ body {
 .ti-bookmark-alt {
   padding-top: 5px;
   font-size: 30px;
-  float: left;
 }
 
 .name-ti-bookmark-alt {
@@ -197,7 +190,6 @@ body {
   width: 50%;
   height: 300px;
   padding: 10px;
-  float: left;
 }
 
 .deilay-report-icon {
@@ -207,7 +199,6 @@ body {
 .ti-write {
   padding-top: 5px;
   font-size: 30px;
-  float: left;
 }
 
 .name-ti-write {
@@ -234,7 +225,6 @@ body {
 .ti-user {
   font-size: 30px;
   padding-top: 5px;
-  float: left;
 }
 
 .name-ti-user {
@@ -243,7 +233,6 @@ body {
   height: 63px;
   font-size: 36px;
   padding-left: 18px;
-  float: left;
 }
 
 .til-doc {
@@ -258,14 +247,12 @@ body {
 .ti-check-box {
   color: #8BC34A;
   font-size: 18px;
-  float: left;
 }
 
 .doc-ti-check-box {
   width: 400px;
   font-size: 11px;
   padding-left: 18px;
-  float: left;
 }
 
 .members-doc-two {
@@ -279,7 +266,7 @@ body {
 }
 
 .lpc-oval-imform {
-  padding: 0 0 0 12%;
+  padding-left: 12%;
   justify-content: space-around;
   width: 75%;
   height: 322px;
@@ -376,7 +363,6 @@ body {
 
 .avatar {
   padding-left: 50px;
-  float: left;
 }
 
 .our-customers-img img {
@@ -401,7 +387,6 @@ body {
   border-radius: 100%;
   border: 2px solid #D8D8D8;
   background-color: #ffffff;
-  float: left;
 }
 
 .oval-mini {
@@ -411,7 +396,6 @@ body {
   border: 2px solid #D8D8D8;
   color: #ffffff;
   margin-left: 23px;
-  float: left;
 }
 
 .oval-mini::after {
@@ -447,7 +431,6 @@ body {
 .ti-calendar {
   padding-top: 5px;
   font-size: 30px;
-  float: left;
 }
 
 .name-ti-calendar {
@@ -456,7 +439,6 @@ body {
   height: 63px;
   font-size: 36px;
   padding-left: 15px;
-  float: left;
 }
 
 .lpc-mask {
@@ -478,7 +460,6 @@ body {
 
 .inform-mask {
   padding-left: 50px;
-  float: left;
 }
 
 .get-in-touch {
