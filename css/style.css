@@ -14,8 +14,7 @@ body {
 
 .lpc-banner-button {
   font-size: 12px;
-  padding-top: 2%;
-  padding-left: 65%;
+  padding: 2% 0 0 65%;
   display: flex;
 }
 
@@ -50,8 +49,7 @@ body {
 }
 
 .banner-icon {
-  padding-top: 30px;
-  padding-left: 30%;
+  padding: 30px 0 0 30%;
   display: flex;
 }
 
@@ -92,14 +90,12 @@ body {
 
 .banner-slogan {
   font-style: roboto-italic;
-  padding-top: 45px;
+  padding: 45px 0 0 32%;
   font-size: 14px;
-  padding-left: 32%;
 }
 
 .banner-start-now {
-  padding-top: 34px;
-  padding-left: 45%;
+  padding: 34px 0 0 45%;
 }
 
 .start-now {
@@ -116,8 +112,7 @@ body {
 .lpc-today-i-learnt {
   justify-content: space-between;
   align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding: 0 20% 0 20%;
   height: 400px;
   border: 1px solid #D8D8D8;
   background-color: #ffffff;
@@ -191,8 +186,7 @@ body {
 .lpc-daily-report {
   justify-content: space-between;
   align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding: 0 20% 0 20%;
   height: 400px;
   border: 1px solid #D8D8D8;
   background-color: #ffffff;
@@ -376,8 +370,7 @@ body {
 }
 
 .avatar-img {
-  padding-top: 35px;
-  padding-left: 14%;
+  padding: 35px 0 0 14%;
   display: flex;
 }
 
@@ -398,8 +391,7 @@ body {
 }
 
 .our-customers-oval {
-  padding-top: 20px;
-  padding-left: 45%; 
+  padding: 20px 0 0 45%; 
   display: flex;
 }
 
@@ -469,8 +461,7 @@ body {
 
 .lpc-mask {
   height: 140px;
-  padding-top: 40px;
-  padding-left: 17%;
+  padding: 40px 0 0 17%;
   background-color: #39474E;
   border: 1px solid #C7C4C4;
   display: flex;
@@ -502,11 +493,10 @@ body {
 }
 
 .mask-icon {
-  padding-top: 55px;
+  padding: 55px 0 0 38px;
   justify-content: space-between;
   min-width: 120px;
   color: #8BC34A;
-  padding-left: 38px;
   display: flex;
 }
 
