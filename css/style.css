@@ -398,12 +398,6 @@ body {
   margin-left: 23px;
 }
 
-.oval-mini::after {
-  content: ' ';
-  clear: both;
-  display: block;
-}
-
 .lpc-our-customers-doc {
   padding-left: 25%;
 }
