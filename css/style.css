@@ -49,8 +49,7 @@ body {
 }
 
 .banner-hapoerp {
-  margin-top: 100px;
-  margin-left: 10%;
+  margin: 100px 0 0 10%;
 }
 
 .banner-hapoerp img {
@@ -149,7 +148,6 @@ body {
 
 .name-ti-bookmark-alt {
   font-style: roboto-light;
-  color: #444444;
   width: 308px;
   height: 50px;
   font-size: 36px;
@@ -215,9 +213,8 @@ body {
 
 .name-ti-write {
   font-style: roboto-light;
-  color: #444444;
   width: 308px;
-  height: 50px;
+  height: 60px;
   font-size: 36px;
   padding-left: 19px;
 }
@@ -355,6 +352,7 @@ body {
   padding-top: 20px;
   text-align: center;
 }
+
 .avatar {
   flex-direction: column;
   justify-content: center;
@@ -397,7 +395,6 @@ body {
   height: 8px; 
   border-radius: 100%;
   border: 2px solid #9B9B9B;
-  color: #ffffff;
   margin-left: 23px;
 }
 
@@ -460,6 +457,7 @@ body {
   width: 80px;
   height: 20px;
 }
+
 .inform-mask-hapo {
   padding-left: 10px;
   height: 80px;
@@ -480,10 +478,10 @@ body {
   color: #8BC34A;
 }
 
-.contact {
+.inform-mask p {
   color: #D0D8DC;
   font-size: 8pt;
-  padding-top: 14px;
+  padding-top: 10px;
 }
 
 .mask-icon {
